@@ -24,6 +24,7 @@ app.delete("/api/v1/data/:id", deleteData);
 
 app.patch("/api/v1/data/:id", updateData);
 */
+
 app.use("/api/v1/data", router);
 app.listen(port, () => {
   console.log(`Server is running on ${port}`);
